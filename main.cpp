@@ -169,7 +169,30 @@ void shop::receipt()
 
 int auth()
 {
-    
+      cout << "Please enter login password:";
+    char pass[10] = { 0 };
+    char temp[10] = "0000";
+    for (int i = 0; i < 10;i++)
+    {
+        pass[i] = _getch();
+        if (pass[i] == 13)
+        {
+            pass[i] = '\0';
+            break;
+        }
+        else
+        {
+            _putch('*');
+        }
+    }
+    if(strcmp(temp,pass)==0)
+    {
+        cout<<endl;
+        cout<<"Login Successful!"<<endl;
+        return 1;
+    }
+    else
+        return 0;
 
 }
 
