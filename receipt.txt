@@ -1,0 +1,15 @@
+================================================
+          THANKS FOR SHOPPING!                  
+================================================
+		
+
+BILL NO: 17629479
+	Name: pen
+	Quantity: 2
+	Price: 10
+	Price with GST: 24.8
+	Name: book
+	Quantity: 2
+	Price: 12
+	Price with GST: 29.76
+	Total price with GST: 49.28

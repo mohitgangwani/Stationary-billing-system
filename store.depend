@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1601208901 source:e:\notes 2nd year\oop\microproject\store\main.cpp
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<string.h>
+
